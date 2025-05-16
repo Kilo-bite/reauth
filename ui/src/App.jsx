@@ -1,6 +1,10 @@
+import SiteNav from "./components/navigation/sitenav/SiteNav"
+import SiteRoutes from "./SiteRoutes/SiteRoutes"
+
 const App = () => (
- <div className="mx-w-6xl mx-auto">
-    <h1>Welcome</h1>
+ <div className="bg-slate-100 min-h-screen">
+   <SiteNav />
+   <SiteRoutes />
  </div> 
 )
 
